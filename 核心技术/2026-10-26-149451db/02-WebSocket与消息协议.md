@@ -1,5 +1,11 @@
 # 02｜WebSocket 与消息协议：一封委托单怎样找到自己的结果
 
+<!-- attribution:start -->
+> 由 **xml-nya-meow** 编写与整理，最初用于个人学习与知识积累。如有疏漏、错误或不清楚之处，欢迎指出。
+>
+> 本页围绕 [SUMP 主项目](https://github.com/NouSart/sump) 编写，为个人学习资料；项目源码与引用内容保留原作者及贡献者归属。
+<!-- attribution:end -->
+
 **对应版本：**2026-10-26，提交 `149451dbf9ec953006da7c1926c336cfd9da0633`。
 
 **阅读依据：**本轮只核对源码与测试定义。示例是教学模拟，不是抓取的真实网络消息，也不代表本轮已执行测试。
@@ -162,3 +168,17 @@ go test -run '^TestEnvelopeRoundTrip$' -count=1 -v
 接下来读 [03-注册发现与配置](03-注册发现与配置.md)：这些地址从哪里来，配置又怎样真正生效。
 
 固定版本源码：[信封](https://github.com/NouSart/sump/blob/149451dbf9ec953006da7c1926c336cfd9da0633/protocol/envelope.go)、[业务载荷与数字转换](https://github.com/NouSart/sump/blob/149451dbf9ec953006da7c1926c336cfd9da0633/protocol/payloads.go)、[请求配对](https://github.com/NouSart/sump/blob/149451dbf9ec953006da7c1926c336cfd9da0633/protocol/client.go)、[编解码测试](https://github.com/NouSart/sump/blob/149451dbf9ec953006da7c1926c336cfd9da0633/protocol/envelope_test.go)、[数字转换测试](https://github.com/NouSart/sump/blob/149451dbf9ec953006da7c1926c336cfd9da0633/protocol/jsonnum_test.go)、[服务调用与限制](https://github.com/NouSart/sump/blob/149451dbf9ec953006da7c1926c336cfd9da0633/service/service.go)。
+
+<!-- attribution-footer:start -->
+---
+
+**编写与整理：xml-nya-meow** · 原用途：个人向知识库。
+
+如有不足，欢迎提出勘误或改进建议：[反馈入口](https://github.com/xml-nya-meow/sump-knowledgebase/issues)。
+
+[个人知识库](https://github.com/xml-nya-meow/sump-knowledgebase) · [SUMP 主项目](https://github.com/NouSart/sump)
+
+阅读时请核对本页对应的源码版本；本文不代表 SUMP 官方文档。转载或同步时请保留编写者、来源和适用的许可说明。
+
+内容责任与立场说明：若知识库内容存在问题，由对应编者负责核查与修订；本页内容不代表其他团队成员、组织成员或组织的意见与观点。
+<!-- attribution-footer:end -->

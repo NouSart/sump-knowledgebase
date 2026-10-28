@@ -1,5 +1,11 @@
 # SUMP 学习知识库
 
+<!-- attribution:start -->
+> 由 **xml-nya-meow** 编写与整理，最初用于个人学习与知识积累。如有疏漏、错误或不清楚之处，欢迎指出。
+>
+> 本页围绕 [SUMP 主项目](https://github.com/NouSart/sump) 编写，为个人学习资料；项目源码与引用内容保留原作者及贡献者归属。
+<!-- attribution:end -->
+
 面向零基础读者，围绕 SUMP 的独立服务架构，解释代码怎样组织、消息怎样传递、工具怎样并行工作，以及如何验证实际行为。
 
 本仓库由 **xml-nya-meow** 维护，是独立学习资料，非 SUMP 官方文档。项目来源：[SUMP](https://github.com/NouSart/sump)。
@@ -33,3 +39,17 @@
 欢迎提出勘误。修改时标明源码版本，解释预期和实际行为；不要把个人排障过程混入正文。
 
 本文档与示例按 [Apache-2.0](LICENSE) 发布。SUMP 及引用代码保留原作者归属，见 [NOTICE](NOTICE)。
+
+<!-- attribution-footer:start -->
+---
+
+**编写与整理：xml-nya-meow** · 原用途：个人向知识库。
+
+如有不足，欢迎提出勘误或改进建议：[反馈入口](https://github.com/xml-nya-meow/sump-knowledgebase/issues)。
+
+[个人知识库](https://github.com/xml-nya-meow/sump-knowledgebase) · [SUMP 主项目](https://github.com/NouSart/sump)
+
+阅读时请核对本页对应的源码版本；本文不代表 SUMP 官方文档。转载或同步时请保留编写者、来源和适用的许可说明。
+
+内容责任与立场说明：若知识库内容存在问题，由对应编者负责核查与修订；本页内容不代表其他团队成员、组织成员或组织的意见与观点。
+<!-- attribution-footer:end -->

@@ -1,5 +1,11 @@
 # 准备 Windows 开发环境
 
+<!-- attribution:start -->
+> 由 **xml-nya-meow** 编写与整理，最初用于个人学习与知识积累。如有疏漏、错误或不清楚之处，欢迎指出。
+>
+> 本页围绕 [SUMP 主项目](https://github.com/NouSart/sump) 编写，为个人学习资料；项目源码与引用内容保留原作者及贡献者归属。
+<!-- attribution:end -->
+
 整理日期：2026-10-24。先检查已有工具，缺什么再补什么。此页是操作说明，没有替你安装或更改系统。
 
 ## 第一步：看你的电脑是什么类型
@@ -42,3 +48,17 @@ Go 运行构建或测试时按 go.mod 下载库。前端在 frontend 文件夹�
 环境确认后读 [第一次复现](02-第一次复现.md)。先做一条可核对的链，不必一次启动所有入口、连 QQ、放真实模型、搭公网。
 
 安装器确实会在你主动运行时安装软件并配置命令入口。本知识库只提供步骤，不会自动执行它们，也不要求永久放宽 PowerShell 执行策略。
+
+<!-- attribution-footer:start -->
+---
+
+**编写与整理：xml-nya-meow** · 原用途：个人向知识库。
+
+如有不足，欢迎提出勘误或改进建议：[反馈入口](https://github.com/xml-nya-meow/sump-knowledgebase/issues)。
+
+[个人知识库](https://github.com/xml-nya-meow/sump-knowledgebase) · [SUMP 主项目](https://github.com/NouSart/sump)
+
+阅读时请核对本页对应的源码版本；本文不代表 SUMP 官方文档。转载或同步时请保留编写者、来源和适用的许可说明。
+
+内容责任与立场说明：若知识库内容存在问题，由对应编者负责核查与修订；本页内容不代表其他团队成员、组织成员或组织的意见与观点。
+<!-- attribution-footer:end -->
